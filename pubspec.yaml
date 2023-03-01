@@ -1,0 +1,48 @@
+name: task2
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  badges: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+#  assets:
+#     - assets/images
+
+
+
+  fonts:
+     - family: Dancing Script
+       fonts:
+         - asset: assets/fonts/DancingScript-Bold.ttf
+           weight: 700
+         - asset: assets/fonts/DancingScript-Medium.ttf
+           weight: 500
+         - asset: assets/fonts/DancingScript-Regular.ttf
+           weight: 400
+         - asset: assets/fonts/DancingScript-SemiBold.ttf
+           weight: 600
+
+
